@@ -1,26 +1,3 @@
-'''Review the code below and answer the following two questions:
-1. Does the change inside increment_int_a change the variable a after the function call?
-2. Does the change inside increment_int_b change the variable b after the function call?
-3. If they differ answer why? if not why not?
-• Submit answers in a text file called q5.txt
-'''
-def increment_int_a(someval):
-    someval += 1
-def increment_int_b(someval):
-    someval[0] += 1
-def main():
-    a = 32
-    print("original: ", a)
-    increment_int_a(a)
-    print("incremented: ", a)
-    b = [32]
-    print("original: ", b)
-    increment_int_b(b)
-    print("incremented: ", b)
-
-main()
-
-
 The integer a did not get incremented, however the list b got incremented after calling the function. 
 The reason why b got incremented is due to the fact that we passed a reference to the function, hence it is changeable by the code. 
 On the other hand for a, we pass the int value to the function, which cannot be modified in any way. 

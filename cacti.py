@@ -1,17 +1,3 @@
-'''You’re planting cacti in a popular video game in a square or rectangular area. Some blocks have cacti, while
-others do not. Cacti cannot be placed adjacent to each other (horizontally or vertically), but CAN be placed
-diagonal to each other.
-You have a 2-D Array that shows which blocks you’ve already planted cacti on, with 0 meaning an empty
-plot, and 1 meaning a used plot. How many more cacti can you plant on this plot before it’s full?
-Instructions:
-• Create a file named cacti.py and create a decorator inside called cacti_number.
-• The function will take a 2-D array as input.
-• The function should return an integer.
-• Your function can assume that each index of the array will only use 0 or 1, and will be a perfect
-rectangle or square (each subarray has the same length). Your function can also assume that two cacti
-aren’t already next to each other.'''
-
-
 def cacti_number(func):
     def wrapper(array):
         row = len(array)

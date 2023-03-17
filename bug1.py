@@ -1,11 +1,3 @@
-'''Create a file named bug1.py and copy the code below.
-• When you submit only update the code such that you get the correct output below.
-• You should not see any errors or warnings if you completly corrected the code.
-Hint: - I suggest reading this article https://realpython.com/python3-object-oriented-programming/'''
-
-# TODO: there's code missing in one or more lines below
-
-
 class Base:
 
     def __init__(self, x, y, size):

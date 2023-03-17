@@ -9,4 +9,6 @@ def merge(list1, list2):
         else:
             newList.append(list2[j])
             j += 1
-    newList = list1[i:] + list2[j:]
+    newList += list1[i:] + list2[j:]
+    return newList
+
